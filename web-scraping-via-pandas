@@ -31,11 +31,12 @@ This Wikipedia page has around 26 different tables showing about the World popul
  
 
 Now we will start to fetch all the tables from the webpage and count the number of tables.
+'''
 import pandas as pd
 url = 'https://en.wikipedia.org/wiki/World_population'
 data_frames = pd.read_html(url)
 print(len(data_frames))
-
+'''
 Output:
 
 26
